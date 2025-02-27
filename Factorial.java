@@ -9,12 +9,13 @@ public class Factorial {
         scanner.close();
 
     }
-    public static int Fact(int num){
-        int fact =1;
-      for(int i=1; i<=num; i++){
-        fact*=i;
-    }
-           return fact ;
-    
+
+    public static int Fact(int num) {
+        int fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+        return fact;
+
     }
 }
